@@ -1,6 +1,10 @@
 # To build
 
 ```
+$ module list
+Currently Loaded Modules:
+  1) DefApps   2) python/3.5.2   3) summitdev_tests   4) cmake/3.6.1   5) cuda/8.0.35   6) xl/20161117   7) essl/5.5.0-20161110   8) spectrum_mpi/10.1.0.2
+
 $ mkdir build
 $ cd build
 $ CC=gcc CXX=g++ cmake ..
