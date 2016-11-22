@@ -1,8 +1,8 @@
 # To build
 
 ```
-mkdir build
-cd build
+$ mkdir build
+$ cd build
 $ CC=gcc CXX=g++ cmake ..
 $ make
 $ cp ../inlinePTX_kernel.cu . 
@@ -10,7 +10,7 @@ $ cp ../inlinePTX_kernel.cu .
 
 ## Reproduce failure
 ```
-$ mpirun -np 1 ./inlinePTX_nvrtc 
+$ mpirun -n 1 ./inlinePTX_nvrtc 
 CUDA inline PTX assembler sample
 > Using CUDA Device [0]: Tesla P100-SXM2-16GB
 > GPU Device has SM 6.0 compute capability
